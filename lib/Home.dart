@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_appsi/main.dart';
 import 'package:flutter_appsi/Cards.dart';
 
+import 'Cards.dart';
+import 'Cards.dart';
+
 
 void main() {
 
@@ -33,7 +36,7 @@ class _Home extends State<Home> {
       resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.blue[100],
       body: Center(
-        child: cards(url1,'product','price'),
+        child: Cards(url: 'http:/dsfdsf', price: 9.9, productName: 'test')
       ),
     );
   }
